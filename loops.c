@@ -47,5 +47,20 @@ int main()
     }  
     */
 
+    // For loop that outputs values 1 through 20
+    for (int i = 0; i < 20; i++)
+        printf("%d ", i+1);
+    printf("\n");
+
+    //While loop that outputs even values from -10 through 10
+    int e = -10;
+
+    while (e <= 10)
+    {
+        printf("%d ", e);
+        e += 2;
+    }
+    printf("\n");
+
     return 0;
 }
