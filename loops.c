@@ -62,5 +62,16 @@ int main()
     }
     printf("\n");
 
+    // Nested loops
+
+    for(char alpha='A'; alpha < 'K'; alpha++)
+    {
+        for(int numeric = 0; numeric < 10; numeric++)
+        {
+            printf("%c-%d\t", alpha, numeric);
+        }
+        putchar('\n');
+    }
+
     return 0;
 }
