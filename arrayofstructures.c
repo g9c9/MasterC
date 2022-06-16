@@ -33,6 +33,7 @@ int main()
     
 }
 
+// Could also have as parameter "struct person p[]"
 void printPresidents(struct person* presidents)
 {
     printf("Presidents:\n");
