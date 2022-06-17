@@ -16,7 +16,7 @@ char *encrypt(char *input)
 {
     // We want this static because we want
     // the output to stay in memory when we
-    // exist the function
+    // exit the function
     static char output[64];
     int x = 0;
 
